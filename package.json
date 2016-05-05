@@ -1,0 +1,17 @@
+{
+  "name": "app-registry",
+  "version": "1.0.0",
+  "description": "A registry tool to set and share application services",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davide Fiorello <davide@codeflyer.com> (http://github.com/codeflyer/)",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^1.19.0",
+    "gulp": "^3.9.1",
+    "gulp-commonjs-tasks": "^1.2.0",
+    "gulp-mocha-co": "^0.4.1-co.3"
+  }
+}
