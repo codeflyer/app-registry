@@ -40,7 +40,7 @@ var Registry = function () {
    */
   function registerService(serviceName, service) {
     if (this.exists(serviceName)) {
-      throw new Error(`A service named [${serviceName}] already registered.`);
+      throw new Error('A service named [' + serviceName + '] already registered.');
     }
     services[serviceName] = service;
   }
@@ -61,7 +61,7 @@ var Registry = function () {
    */
   function getService(serviceName) {
     if (!this.exists(serviceName)) {
-      throw new Error(`Service [${serviceName}] not exists.`);
+      throw new Error('Service [' + serviceName + '] not exists.');
     }
     return services[serviceName];
   }

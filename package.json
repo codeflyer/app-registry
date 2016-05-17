@@ -1,6 +1,6 @@
 {
   "name": "app-registry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A registry tool to set and share application services",
   "main": "src/index.js",
   "scripts": {
